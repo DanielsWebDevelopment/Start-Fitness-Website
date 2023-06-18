@@ -1,0 +1,1694 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alfa+Slab+One&family=Anton&family=Bangers&family=Bebas+Neue&family=Carlito:wght@700&family=Castoro+Titling&family=Cormorant+Garamond&family=Fjalla+One&family=Gilda+Display&family=Gloock&family=Goblin+One&family=Holtwood+One+SC&family=Inter&family=Kanit&family=Konkhmer+Sleokchher&family=Koulen&family=Lilita+One&family=Merriweather:ital@0;1&family=Montserrat:wght@300;400;500;600;700&family=Open+Sans:wght@400;700&family=Oswald:wght@200;400&family=Permanent+Marker&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,200&family=Rajdhani:wght@700&family=Righteous&family=Roboto+Condensed:ital@1&family=Roboto:wght@300&family=Ruda:wght@600&family=Rufina&family=Russo+One&family=Shrikhand&family=Slabo+27px&family=Squada+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(./img/pexels-koolshooters-8520627.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+nav {
+    background-color: #4F4F4F;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+}
+
+/* =================================NAV SECTION =============================== */
+.logo {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.navbar {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    cursor: pointer;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar i {
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-item li a{
+    transition: 0.5s ease;
+}
+
+.nav-item li a:hover {
+    color: #4F4F4F;
+}
+
+/* =========================END NAV SECTION ================== */
+
+/* ==========================MAIN SECTION ====================== */
+.main {
+    text-align: center;
+    margin-top: 300px;
+}
+
+.main-title h1 {
+    color: #fff;
+    font-size: 60px;
+    text-decoration: none;
+}
+/* ==========================END MAIN SECTION ====================== */
+
+/* ==========================PRODUCTS SECTION ======================== */
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+#products-title h1 {
+    text-align: center;
+    position: relative;
+    bottom: 250px;
+    font-size: 60px;
+}
+
+.flexbox-item {
+    width: 150px;
+    border: 1px solid rgb(243, 243, 243);
+    position: relative;
+    border-radius: 20px;
+    bottom: 950px;
+    left: 22px;
+    box-shadow: 0 3px 5px #333;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.flexbox-item-1 {
+    min-height: 350px;
+    width: 31%;
+}
+
+.flexbox-item-1 img {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid rgb(243, 243, 243);
+}
+
+.flexbox-container {
+    display: flex;
+    gap: 10px;
+}
+
+.flexbox-item-1 h4 {
+    margin-left: 10px;
+    font-weight: 700;
+    color: #8b8b8b;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.flexbox-item-1 span {
+    margin-left: 10px;
+    position: relative;
+    top: 30px;
+    right: 100px;
+    bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.flexbox-item-1 i {
+    position: relative;
+    left: 10px;
+    color: #f7e70e;
+}
+
+.icon i {
+    color: #4F4F4F;
+    margin-left: 180px;
+    height: 40px;
+    width: 40px;
+    background-color: #e6e6e6;
+    border-radius: 50%;
+    padding: 10px 12px;
+    position: relative;
+    bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.icon i:hover {
+    color: #fff;
+}
+
+.wrapper {
+    position: relative;
+    bottom: 650px;
+    background-color: #4F4F4F;
+    height: 120px;
+    min-width: 100%;
+}
+
+.promotions h4 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-weight: 400;
+}
+
+/* ==========================END PRODUCTS SECTION ======================== */
+
+/* ==========================SALES SECTION ======================== */
+
+#sale {
+    text-align: center;
+    position: relative;
+    bottom: 450px;
+}
+
+.sales h1 {
+    font-size: 60px;
+}
+
+.swiper {
+    height: 480px;
+    position: relative;
+    bottom: 300px;
+    overflow-x: hidden;
+}
+
+.swiper img {
+    height: 400px;
+    margin-left: 225px;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 2px 2px 10px 0 #4F4F4F;
+    cursor: pointer;
+}
+
+.promotion-time {
+    text-align: center;
+    position: relative;
+    bottom: 350px;
+}
+
+.promotion-time h5 {
+    font-size: 14px;
+    font-size: 400;
+}
+/* ==========================END SALES SECTION ======================== */
+
+/* =============================REVIEWS SECTION  =======================*/
+.review-cards {
+    display: flex;
+}
+
+.review {
+    min-width: 240px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 10px #4F4F4F;
+    margin: 5px 8px;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.review:hover {
+    transform: scale(1.1);
+}
+
+.card-reviews {
+    min-height: 180px;
+}
+
+.reviews-title h1 {
+    text-align: center;
+    position: relative;
+    bottom: 150px;
+    font-size: 60px;
+}
+
+.card-reviews img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    border: 3px solid #292828;
+}
+
+.review-cards h6 {
+    text-align: center;
+    font-size: 13px;
+    position: relative;
+    left: 40px;
+    bottom: 50px;
+}
+
+.review-cards i {
+    color: #dacc09;
+    position: relative;
+    left: 120px;
+    bottom: 50px;
+}
+
+.review-cards small {
+    font-size: 13px;
+    float: left;
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    font-weight: 400;
+}
+/* ===============================END REVIEWS SECTION ================ */
+
+/* ===============================SUBSCRIBE SECTION ================ */
+#subscribe-title h1{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 40px;
+} 
+
+.subscribe-container input {
+    margin-left: 180px;
+    min-height: 40px;
+    min-width: 300px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 4px 10px #4F4F4F;
+}
+
+.subscribe-container input::placeholder{
+    position: relative;
+    left: 10px;
+} 
+
+.subscribe-container small {
+    text-align: center;
+}
+
+#submit {
+    height: 45px;
+    min-width: 80px;
+    border: 1px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px #4F4F4F;
+    cursor: pointer;
+}
+
+.subscribe-info {
+ text-align: center;
+}
+
+.subscribe-info p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+/* ===============================END SUBSCRIBE SECTION ================ */
+
+/* ================================TRACK SECTION ========================== */
+.track-heading h1 {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    bottom: 30px;
+}
+
+.progress {
+    font-size: 30px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.progress small {
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    color: #fff;
+}
+
+.progress-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    cursor: pointer;
+}
+
+.progress-container .progress {
+    position: relative;
+    width: 210px;
+    height: 210px;
+    left: 10px;
+    top: 50px;
+    border-radius: 50%;
+    background: #383838 linear-gradient(to right, transparent 50%, #24a3ec 0);
+    box-shadow: 0 5px 10px #333;
+    transition: All 300ms ease-in;
+}
+
+.progress-container .progress:hover{
+    margin-left: 1rem;
+}
+
+.progress-container h5 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-weight: 500;
+}
+
+.progress h6 {
+    color: #fff;
+    font-size: 10px;
+    position: relative;
+    top: 150px;
+    left: 48px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.progress-container span {
+    font-weight: 400;
+}
+
+.in-progress h1 {
+    margin-left: 70px;
+    margin-top: 200px;
+    font-size: 30px;
+}
+
+#info-product p {
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#info-product button {
+    height: 40px;
+    width: 160px;
+    margin-left: 80px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    background-color: #24a3ec;
+    color: #fff;
+    box-shadow: 0 2px 8px #4F4F4F;
+    cursor: pointer;
+}
+
+.card-info small {
+    position: relative;
+    top: 40px;
+    left: 20px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.progress-card-info {
+    height: 600px;
+    width: 380px;
+    margin-top: 60px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #4F4F4F;
+    position: relative;
+    left: 330px;
+}
+
+.box {
+    background-color: rgb(75, 75, 75);
+    height: 100px;
+    box-shadow: 0 2px 8px #4F4F4F;
+}
+
+.box-item h1 {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.card-info h4 {
+    padding: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.card-info span {
+    color: #4e4e4e;
+    background-color: #ffffff;
+    padding: 10px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px #4F4F4F;
+}
+
+.progress-card-info img {
+    width: 100%;
+    margin-top: 110px;
+}
+
+
+/* ================================END TRACK SECTION ========================== */
+
+/* ================================SHOP SECTION ========================== */
+.shop-container {
+    padding: 4rem 0 3rem;
+    position: relative;
+    bottom: 250px;
+    left: 30px;
+}
+
+.section-title {
+    font-size: 1.3rem;
+}
+
+.shop-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+    gap: 2rem;
+    padding: 10px 5px;
+}
+
+.shop-content img {
+    height: 200px;
+    width: 200px; 
+    position: relative;
+    left: 5px;
+    cursor: pointer;
+}
+
+.shop-page-title {
+    text-align: center;
+    position: relative;
+    top: 300px;
+}
+
+.shop-page-title h1 {
+    font-size: 55px;
+}
+
+.shop-page-title p {
+    padding: 50px 150px;
+    position: relative;
+    bottom: 30px;
+}
+
+.product-card {
+    position: relative;
+    box-shadow: 0 4px 10px #929292;
+}
+
+.product-card:hover {
+    padding: 4px;
+    border: 1px solid #4e4e4e;
+    transition: 0.4s;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+}
+
+.products-title {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.add-cart {
+    position: absolute;
+    bottom: 20;
+    left: 260px;
+    background: #5a5a5a;
+    color: #fff;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.cart {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 350px;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #4F4F4F;
+    transition: 0.3s;
+}
+
+.cart.active {
+    right: 0;
+}
+
+.cart-title {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.cart-content img {
+    height: 100px;
+    width: 100px;
+}
+
+.cart-box {
+    display: grid;
+    grid-template-columns: 32% 52% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.cart-img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 10px;
+}
+
+.details-box  {
+    display: grid;
+    row-gap: 0.5rem;
+}
+
+.cart-product-title {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.cart-price {
+    font-weight: 500;
+}
+
+.cart-quantity {
+    border: 1px solid #4F4F4F;
+    outline-color: #24a3ec;
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.cart-remove {
+    font-size: 22px;
+    color: #24a3ec;
+    cursor: pointer;
+}
+
+.total {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    border: 1px solid #24a3ec;
+}
+
+.total-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.total-price {
+    margin-left: 0.5rem;
+}
+
+.btn-buy {
+    display: flex;
+    margin: 1.5rem auto 0 auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: #4F4F4F;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn-buy:hover {
+    background: #24a3ec;
+}
+
+#close-cart {
+    position: absolute;
+    top: 1rem;
+    right: 0.8rem;
+    font-size: 2rem;
+    color: #4F4F4F;
+    cursor: pointer;
+}
+/* ================================SHOP SECTION ========================== */
+
+/* ================================CONTACT SECTION ========================== */
+form {
+    margin: 100px 150px;
+    position: relative;
+    bottom: 200px;
+    padding-left: 10px;
+}
+
+.input-field {
+    width: 400px;
+    height: 60px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 8px #4F4F4F;
+}
+
+form label {
+    position: relative;
+    right: 10px;
+    font-weight: 500;
+}
+
+form input::placeholder {
+    position: relative;
+    left: 10px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-field-textarea {
+    height: 200px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 55px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 8px #4F4F4F;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button {
+    height: 50px;
+    width: 150px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    box-shadow: 0 2px 8px #4F4F4F;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 300ms ease;
+    background: #4F4F4F;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+form button:hover {
+    margin-top: 2px;
+}
+
+.contact-title-section {
+    background-color: #4F4F4F;
+    width: 100%;
+}
+
+.contact-title-section h1 {
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+}
+/* =================================END CONTACT SECTION ======================== */
+
+/* =================================FOOTER SECTION ======================== */
+
+.footer-container {
+    background-color: #4F4F4F;
+    position: relative;
+    top: 450px;
+}
+
+
+.footer-links ul li {
+    display: flex;
+    gap: 30px;
+    margin-left: 50px;
+    position: relative;
+    bottom: 10px;
+    padding: 40px;
+}
+
+
+.footer-links ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    letter-spacing: .1rem;
+    font-size: 13px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.footer-links ul li a:hover {
+    color: #7a7a7a;
+}
+
+.footer-links h4 {
+    color: #fff;
+    margin-left: 90px;
+    position: relative;
+    top: 30px;
+}
+
+/* =================================END FOOTER SECTION ======================== */
+
+/* =================================MEDIA QUERIES / MOBILE ======================== */
+@media screen and (max-width: 480px){
+    .navbar ul {
+        display: none;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: 600;
+        position: relative;
+        right: 80px;
+    }
+
+    .main {
+        text-align: center;
+        margin-top: 250px;
+    }
+    
+    .flexbox-container {
+        display: block;
+        gap: 50px;
+    }
+
+    .flexbox-item {
+        width: 300px;
+        border: 1px solid rgb(243, 243, 243);
+        position: relative;
+        border-radius: 20px;
+        bottom: 950px;
+        left: 60px;
+        box-shadow: 0 3px 5px #333;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .icon i {
+        color: #4F4F4F;
+        margin-left: 240px;
+        height: 40px;
+        width: 40px;
+        background-color: #e6e6e6;
+        border-radius: 50%;
+        padding: 10px 12px;
+        position: relative;
+        bottom: 10px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+
+    .sales h1 {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .swiper {
+        height: 380px;
+        width: 400px;
+        position: relative;
+        bottom: 300px;
+        overflow-x: hidden;
+    }
+
+    .swiper img {
+        height: 330px;
+        width: 200px;
+        margin-left: 80px;
+        overflow: hidden;
+        border-radius: 18px;
+        box-shadow: 2px 2px 10px 0 #4F4F4F;
+        cursor: pointer;
+    }
+
+    .reviews-title h1 {
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        font-size: 50px;
+    }
+
+    .review-cards {
+        display: block;
+    }
+
+    .review-cards small {
+        font-size: 13px;
+        float: left;
+        position: relative;
+        bottom: 10px;
+        left: 10px;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    .review-cards i {
+        color: #dacc09;
+        position: relative;
+        left: 280px;
+        bottom: 40px;
+    }
+
+    .review-cards h6 {
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        left: 120px;
+        bottom: 50px;
+    }
+
+    .subscribe-container input {
+        margin-left: 20px;
+        min-height: 40px;
+        min-width: 300px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 4px 10px #4F4F4F;
+        margin-top: 40px;
+    } 
+    .subscribe-info p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+        padding: 13px;
+        position: relative;
+        left: 5px;
+    }
+
+    .progress-card-info {
+        position: relative;
+        left: 40px;
+    }
+
+    .add-cart {
+        position: absolute;
+        bottom: 20;
+        left: 360px;
+        background: #5a5a5a;
+        color: #fff;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .shop {
+        width: 410px;
+    }
+
+    .shop-content img {
+        height: 380px;
+        width: 380px;
+        position: relative;
+        left: 5px;
+        cursor: pointer;
+    }
+
+    .shop-page-title p {
+        padding: 100px;
+    }
+
+    form {
+        margin: 60px 20px;
+        position: relative;
+        bottom: 250px;
+        padding-left: 10px;
+    }
+
+    form label {
+        position: relative;
+        right: 5px;
+        top: 30px;
+        font-weight: 500;
+    }
+
+    .input-field-textarea {
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left:2px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    form button {
+        height: 50px;
+        width: 150px;
+        margin-left: 250px;
+        margin-top: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 300ms ease;
+        background: #4F4F4F;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .footer-links ul li {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        right: 90px;
+        bottom: 10px;
+        padding: 60px;
+    }
+
+    .footer-links h4 {
+        color: #fff;
+        margin-left: 20px;
+        position: relative;
+        top: 30px;
+    }
+
+    .shop {
+        margin-top: 2rem !important;
+    }
+}
+/* =================================END MEDIA QUERIES / MOBILE ======================== */
+/* =================================MEDIA QUERIES / TABLET ======================== */
+
+@media screen and (min-width: 600px){
+    .navbar ul {
+        display: none;
+    }
+
+    .logo {
+        font-size: 22px;
+        font-weight: 600;
+        position: relative;
+        right: 80px;
+    }
+
+    #products-title h1 {
+        text-align: center;
+        position: relative;
+        bottom: 200px;
+        font-size: 50px;
+    }
+
+    .flexbox-container {
+         display: flex;
+        gap: 20px;
+    }
+
+    .flexbox-item {
+        width: 250px;
+        border: 1px solid rgb(243, 243, 243);
+        position: relative;
+        border-radius: 20px;
+        bottom: 950px;
+        left: 30px;
+        box-shadow: 0 3px 5px #333;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .main {
+        text-align: center;
+        margin-top: 250px;
+    }
+
+    .main-title h1 {
+        color: #fff;
+        font-size: 55px;
+        text-decoration: none;
+    }
+
+    .icon i {
+        color: #4F4F4F;
+        margin-left: 180px;
+        height: 40px;
+        width: 40px;
+        background-color: #e6e6e6;
+        border-radius: 50%;
+        padding: 10px 12px;
+        position: relative;
+        bottom: 20px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+
+    .swiper {
+        height: 480px;
+        width: 500px;
+        position: relative;
+        bottom: 300px;
+        overflow-x: hidden;
+    }
+
+    .swiper img {
+        height: 430px;
+        width: 300px;
+        margin-left: 80px;
+        overflow: hidden;
+        border-radius: 18px;
+        box-shadow: 2px 2px 10px 0 #4F4F4F;
+        cursor: pointer;
+    }
+
+    .sales h1 {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .reviews-title h1 {
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        font-size: 50px;
+    }
+
+    .review-cards {
+        display: flex;
+    }
+
+    .review-cards small {
+        font-size: 13px;
+        float: left;
+        position: relative;
+        bottom: 10px;
+        left: 0px;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    .review-cards i {
+        color: #dacc09;
+        position: relative;
+        left: 150px;
+        bottom: 40px;
+    }
+
+    .review-cards h6 {
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        left: 60px;
+        bottom: 50px;
+    }
+
+    .add-cart {
+        position: absolute;
+        bottom: 20;
+        left: 245px;
+        background: #5a5a5a;
+        color: #fff;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    #subscribe-title h1{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 50px;
+    }
+
+    .subscribe-container input {
+        margin-left: 230px;
+        min-height: 40px;
+        min-width: 300px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 4px 10px #4F4F4F;
+        margin-top: 40px;
+    }
+
+    .subscribe-info p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+        padding: 13px;
+        position: relative;
+        left: 5px;
+    }
+
+    .progress-card-info {
+        position: relative;
+        left: 440px;
+    }
+
+    .shop-content img {
+        height: 280px;
+        width: 280px;
+        position: relative;
+        left: 5px;
+        cursor: pointer;
+    }
+
+    form {
+        margin: 60px 250px;
+        position: relative;
+        bottom: 250px;
+        padding-left: 10px;
+    }
+
+    form label {
+        position: relative;
+        top: 0px;
+        font-weight: 500;
+    }
+
+    .input-field-textarea {
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left:55px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    form button {
+        height: 50px;
+        width: 150px;
+        margin-left: 310px;
+        margin-top: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 300ms ease;
+        background: #4F4F4F;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .footer-links ul li {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        right: 90px;
+        bottom: 10px;
+        padding: 60px;
+    }
+
+    .footer-links h4 {
+        color: #fff;
+        margin-left: 20px;
+        position: relative;
+        top: 30px;
+    }
+}
+/* =================================END MEDIA QUERIES / TABLET ======================== */
+/* ===================================MEDIA QUERIES / LAPTOP ========================*/
+@media screen and (min-width: 900px){
+    .logo {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .navbar ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+    
+    .navbar ul li a {
+        cursor: pointer;
+    }
+    
+    .navbar a {
+        text-decoration: none;
+    }
+    
+    .navbar i {
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .navbar i {
+        display: block;
+    }
+
+    .main {
+        text-align: center;
+        margin-top: 300px;
+    }
+    
+    .main-title h1 {
+        color: #fff;
+        font-size: 55px;
+        text-decoration: none;
+    }
+
+    #products-title h1 {
+        text-align: center;
+        position: relative;
+        bottom: 250px;
+        font-size: 70px;
+    }
+
+    .flexbox-container {
+        display: flex;
+        gap: 20px;
+   }
+
+   .flexbox-item {
+       width: 270px;
+       border: 1px solid rgb(243, 243, 243);
+       position: relative;
+       border-radius: 20px;
+       bottom: 950px;
+       left: 40px;
+       box-shadow: 0 3px 5px #333;
+       transition: 0.5s ease;
+       cursor: pointer;
+   }
+
+   .icon i {
+        color: #4F4F4F;
+        margin-left: 200px;
+        height: 40px;
+        width: 40px;
+        background-color: #e6e6e6;
+        border-radius: 50%;
+        padding: 10px 12px;
+        position: relative;
+        bottom: 10px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+
+    .sales h1 {
+        font-size: 60px;
+        padding: 10px;
+    }
+
+    .reviews-title h1 {
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        font-size: 60px;
+    }
+
+    .review-cards i {
+        color: #dacc09;
+        position: relative;
+        left: 180px;
+        bottom: 40px;
+    }
+
+    .review-cards h6 {
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        left: 80px;
+        bottom: 50px;
+    }
+
+    #subscribe-title h1{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 60px;
+    }
+
+    .subscribe-container input {
+        margin-left: 270px;
+        min-height: 40px;
+        min-width: 300px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 4px 10px #4F4F4F;
+        margin-top: 40px;
+    }
+
+    .subscribe-info p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+        padding: 13px;
+        position: relative;
+        left: 5px;
+    }
+
+    .add-cart {
+        position: absolute;
+        bottom: 20;
+        left: 210px;
+        background: #5a5a5a;
+        color: #fff;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .progress-card-info {
+        position: relative;
+        left: 500px;
+    }
+
+    .shop-content img {
+        height: 220px;
+        width: 220px;
+        position: relative;
+        left: 5px;
+        cursor: pointer;
+    }
+
+    form {
+        margin: 60px 300px;
+        position: relative;
+        bottom: 250px;
+        padding-left: 10px;
+    }
+
+    form label {
+        position: relative;
+        top: 70px;
+        right: 60px;
+        font-weight: 500;
+    }
+
+    .input-field-textarea {
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left: 2px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    form button {
+        height: 50px;
+        width: 150px;
+        margin-left: 250px;
+        margin-top: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 300ms ease;
+        background: #4F4F4F;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+}
+/* ===================================END MEDIA QUERIES / LAPTOP ========================*/
+
+/* ===================================MEDIA QUERIES / DESKTOP========================*/
+@media screen and (min-width: 1200px){
+    .main-title h1 {
+        color: #fff;
+        font-size: 65px;
+        text-decoration: none;
+    }
+
+    .flexbox-item {
+        width: 370px;
+        border: 1px solid rgb(243, 243, 243);
+        position: relative;
+        border-radius: 20px;
+        bottom: 950px;
+        left: 40px;
+        box-shadow: 0 3px 5px #333;
+        transition: 0.5s ease;
+        cursor: pointer;
+    }
+
+    .icon i {
+        color: #4F4F4F;
+        margin-left: 300px;
+        height: 40px;
+        width: 40px;
+        background-color: #e6e6e6;
+        border-radius: 50%;
+        padding: 10px 12px;
+        position: relative;
+        bottom: 10px;
+        cursor: pointer;
+        transition: 0.5s ease;
+    }
+
+    .sales h1 {
+        font-size: 65px;
+        padding: 10px;
+    }
+
+    .swiper {
+        height: 480px;
+        width: 500px;
+        position: relative;
+        bottom: 300px;
+        overflow-x: hidden;
+    }
+
+    .swiper img {
+        height: 530px;
+        width: 300px;
+        margin-left: 80px;
+        overflow: hidden;
+        border-radius: 18px;
+        box-shadow: 2px 2px 10px 0 #4F4F4F;
+        cursor: pointer;
+    }
+
+    .shop-content img {
+        height: 240px;
+        width: 260px;
+        position: relative;
+        left: 5px;
+        cursor: pointer;
+    }
+
+    .reviews-title h1 {
+        text-align: center;
+        position: relative;
+        bottom: 150px;
+        font-size: 65px;
+    }
+
+    .review-cards i {
+        color: #dacc09;
+        position: relative;
+        left: 280px;
+        bottom: 40px;
+    }
+
+    .review-cards h6 {
+        text-align: center;
+        font-size: 13px;
+        position: relative;
+        left: 120px;
+        bottom: 50px;
+    }
+
+    .review-cards small {
+        font-size: 13px;
+        float: left;
+        position: relative;
+        bottom: 10px;
+        left: 0px;
+        font-weight: 400;
+        padding: 20px;
+    }
+
+    #subscribe-title h1{
+        text-align: center;
+        margin-top: 200px;
+        font-size: 65px;
+    }
+
+    .subscribe-container input {
+        margin-left: 360px;
+        min-height: 45px;
+        min-width: 400px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 4px 10px #4F4F4F;
+        margin-top: 40px;
+    }
+
+    .subscribe-info p {
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+        padding: 13px;
+        position: relative;
+        left: 5px;
+    }
+
+    .add-cart {
+        position: absolute;
+        bottom: 20;
+        left: 210px;
+        background: #5a5a5a;
+        color: #fff;
+        padding: 3px;
+        cursor: pointer;
+    }
+
+    .progress-card-info {
+        position: relative;
+        left: 840px;
+    }
+
+    form {
+        margin: 60px 400px;
+        position: relative;
+        bottom: 250px;
+        padding-left: 10px;
+    }
+
+    form label {
+        position: relative;
+        top: 70px;
+        right: 60px;
+        font-weight: 500;
+    }
+
+    .input-field-textarea {
+        height: 200px;
+        width: 400px;
+        margin-top: 20px;
+        margin-left:2px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        padding: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    form button {
+        height: 50px;
+        width: 150px;
+        margin-left: 260px;
+        margin-top: 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        box-shadow: 0 2px 8px #4F4F4F;
+        cursor: pointer;
+        font-size: 16px;
+        transition: 300ms ease;
+        background: #4F4F4F;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .footer-links ul li {
+        display: flex;
+        gap: 20px;
+        position: relative;
+        right: 10px;
+        bottom: 10px;
+        padding: 60px;
+    }
+
+    .footer-links h4 {
+        color: #fff;
+        margin-left: 100px;
+        position: relative;
+        top: 30px;
+    }
+}
+/* ===================================END MEDIA QUERIES / DESKTOP========================*/

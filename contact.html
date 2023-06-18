@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<!-- ==============================SWIPERJS ================================ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+<!-- ===================BOOTSTRAP CDN ========================================= -->
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<!-- =========================BOXICONS ============================== -->
+<!-- ========================STYLESHEET ==============================-->
+    <link rel="stylesheet" href="style.css">
+    <title>STRT Fitness</title>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">STRT</a>
+
+        <ul class="nav-item">
+            <li>
+                <a href="index.html" class="nav-links">Home</a>
+            </li>
+            <li>
+                <a href="shop.html" class="nav-links">Shop</a>
+            </li>
+            <li>
+                <a href="track.html" class="nav-links">Track</a>
+            </li>
+            <li>
+                <a href="contact.html" class="nav-links">Contact</a>
+            </li>
+        </ul>
+        <i class='bx bx-cart' id="cart-icon"></i>
+    </nav>
+    <header>
+        <div class="container main">
+            <div class="main-title">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+    </header>
+
+<!-- ==============================CONTACT SECTION ============================ -->
+    <section>
+        <div class="form-container">
+            <form action="https://formspree.io/f/xlekqwjj" method="POST">
+                <div>
+                    <label>Name</label>
+                    <input type="text" class="input-field" placeholder="Enter your Name..." required>
+                </div>
+                <div>
+                    <label>Email</label>
+                    <input type="text" class="input-field" placeholder="Enter Email..." required>
+                </div>
+                <div>
+                    <label>Phone</label>
+                    <input type="text" class="input-field" placeholder="Enter Phone Number..." required>
+                </div>
+                <textarea name="message" class="input-field-textarea">Send a message</textarea>
+                <button onclick="contact_btn()">Send</button>
+            </form>
+        </div>
+        <div class="contact-title-section">
+            <h1>We'd Love to hear from you! </h1>
+        </div>
+    </section>
+<!-- ================================ END CONTACT SECTION ======================== -->
+<!-- ========================================FOOTER SECTION ====================================== -->
+    <section>
+        <footer>
+           <div class="footer-container">
+            <div class="footer-icon">
+                <div class="footer-links">
+                    <h4>Start Fitness</h4>
+                    <ul>
+                        <li>
+                            <a href="#" class="links">Home</a>
+                            <a href="#" class="links">About</a>
+                            <a href="#" class="links">Contact</a>
+                            <a href="#" class="links">Track</a>
+                        </li>
+                    </ul>
+                    <h4>FAQS</h4>
+                    <ul>
+                        <li>
+                            <a href="#" class="links">Careers</a>
+                            <a href="#" class="links">Store Locator</a>
+                            <a href="#" class="links">PrivacyPolicy</a>
+                            <a href="#" class="links">Customer Support</a>
+                        </li>
+                    </ul>
+                    <h4>Shop</h4>
+                    <ul>
+                        <li>
+                            <a href="#" class="links">Weights</a>
+                            <a href="#" class="links">Yoga Equiptment</a>
+                            <a href="#" class="links">Workout Machines</a>
+                            <a href="#" class="links">Missolanious</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           </div>
+        </footer>
+    </section>
+    
+<!-- ========================================END FOOTER SECTION ====================================== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

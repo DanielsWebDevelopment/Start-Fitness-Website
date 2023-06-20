@@ -7,7 +7,7 @@
 allowing the users to be able to shop for certain products, track their day to day tasks and 
 being able to keep track of this all in one PLACE! 
 
-#### This Webpage was built using HTML, CSS & JavaScript
+#### This Webpage was built using HTML, CSS & JavaScript, while also initalizing Swiperjs
 
 # Some of the features include, but are not limited too, 
 * Implentation on allowing users to search of items they might like to purchase

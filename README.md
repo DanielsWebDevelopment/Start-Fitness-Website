@@ -1,7 +1,7 @@
 # Start-Fitness-Website
 
 # Welcome to Start Fitness! 
-(My personal Project) 
+#### My personal Project
 
 ## This website wes developed for workout purposes, The website revolves around 
 allowing the users to be able to shop for certain products, track their day to day tasks and 

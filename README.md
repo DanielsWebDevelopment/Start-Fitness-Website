@@ -1,6 +1,6 @@
 ![START_FITNESS](https://github.com/DanielsWebDevelopment/Start-Fitness-Website/assets/129445203/9cf7641a-5436-4766-9a35-5a09f9f483ad)
 
-# Welcome to Start Fitness! 
+## Welcome to Start Fitness! 
 #### My personal Project
 
 ## This website wes developed for workout purposes, The website revolves around 
@@ -9,7 +9,7 @@ being able to keep track of this all in one PLACE!
 
 #### This Webpage was built using HTML, CSS & JavaScript, while also initalizing Swiperjs
 
-# Some of the features include, but are not limited too, 
+### Some of the features include, but are not limited too, 
 * Implentation on allowing users to search of items they might like to purchase
 * Implentaion of a live tracking system that allows users to keep track of the taks they do a daily basis
 * Future implentation of a live stat tracker for your workout needs
@@ -17,14 +17,14 @@ being able to keep track of this all in one PLACE!
 Here are screenshots of the website 
 along with the images included
 
-# DESKTOP
+## DESKTOP
 ![main 1](https://github.com/DanielsWebDevelopment/Start-Fitness-Website/assets/129445203/ecb8a9a4-21a7-4fa7-8e89-725eb1223731) 
 (Products Section)
 ![shop section (2)](https://github.com/DanielsWebDevelopment/Start-Fitness-Website/assets/129445203/0d0908aa-674a-4dc2-b20a-b9aaacf2a7de)
 (Progress tracking section)
 ![track section](https://github.com/DanielsWebDevelopment/Start-Fitness-Website/assets/129445203/6498801f-4f45-4649-b578-f35989fda03d)
 
-# MOBILE
+## MOBILE
 ![main mobile](https://github.com/DanielsWebDevelopment/Start-Fitness-Website/assets/129445203/5838199c-0904-4d3c-a4cc-3ec0232ba79a)
 
 (Shop Section)

@@ -9,7 +9,7 @@ being able to keep track of this all in one PLACE!
 
 #### This Webpage was built using HTML, CSS & JavaScript, while also initalizing Swiperjs
 
-### Some of the features include, but are not limited too, 
+### Some of the features include, but are not limited too
 * Implentation on allowing users to search of items they might like to purchase
 * Implentaion of a live tracking system that allows users to keep track of the taks they do a daily basis
 * Future implentation of a live stat tracker for your workout needs
